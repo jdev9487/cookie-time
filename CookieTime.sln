@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cookie-time", "src\cookie-time\cookie-time.csproj", "{396FBF02-F477-4515-9E05-2C19D6720480}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CE0F6663-F683-4237-8F21-26AC471CAABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cookie-time.Tests", "test\cookie-time.Tests\cookie-time.Tests.csproj", "{0ED2F363-FF01-4F90-BF40-09F249EAC98D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{396FBF02-F477-4515-9E05-2C19D6720480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396FBF02-F477-4515-9E05-2C19D6720480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396FBF02-F477-4515-9E05-2C19D6720480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396FBF02-F477-4515-9E05-2C19D6720480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ED2F363-FF01-4F90-BF40-09F249EAC98D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED2F363-FF01-4F90-BF40-09F249EAC98D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED2F363-FF01-4F90-BF40-09F249EAC98D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED2F363-FF01-4F90-BF40-09F249EAC98D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0ED2F363-FF01-4F90-BF40-09F249EAC98D} = {CE0F6663-F683-4237-8F21-26AC471CAABA}
+	EndGlobalSection
+EndGlobal
